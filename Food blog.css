@@ -1,0 +1,182 @@
+h1{
+    font-family: Krungthep;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    margin: inherit;
+}
+
+
+.header{
+    width: auto;
+}
+
+
+p{
+    font-family: Marker Felt;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    margin: unset;
+}
+
+
+main{
+    font-family: Krungthep;
+    font-size: 1em;
+    background-color: white;
+    text-align: center;
+    color:#000000;
+}
+
+
+body{
+    background-color: #ffffff;
+    margin: unset;
+}
+
+
+.a{
+    padding: 7em;
+    background-color: #3C0D0D;
+}
+
+
+.active {
+    background-color: #b10606;
+}
+
+
+.nav_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#000000;
+    position: -webkit-absolute; /* Safari */
+    position: absolute;
+    top: 0;
+  }
+
+  
+li {
+    float: right;
+  }
+  
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+li a:hover {
+    background-color: #610202;
+  }
+
+
+  .image{
+      object-fit: cover;
+      height: 800px;
+      width: 100%;
+      align-items: center;
+  }
+
+
+  .text_over_image{
+        position: absolute;
+        top: 25%;
+        left: 20px;
+        color: white;
+        font-family: Krungthep;
+        font-size: 90px;
+
+      
+  }
+
+
+  .container {
+    position: relative;
+    display: flex;
+    color: white;
+  }
+
+
+  .button{
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    background-color: #818181;
+    color: #000000;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+
+  .button:hover {
+    background-color: #f7f7f7;
+  }
+  
+
+  .search_over_header{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-family: Krungthep;
+    font-size: 90px;
+    font-weight: 900;
+  }
+
+
+.random{
+background-color: black;
+padding: 6em;
+position: ß;
+}
+
+
+.my_pic{
+  object-fit: cover;
+    border: 15px solid #ffffff;
+    padding: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    align-items: center;
+
+}
+
+.myself{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #151515;
+}
+
+
+.openBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-family: Krungthep;
+    font-size: 90px;
+    font-weight: 900;
+    background:   #5c0404;
+    border: none;
+    /* padding: 10px 15px; */
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+.openBtn:hover {
+    background:  #b10606;
+  }
+  
+
